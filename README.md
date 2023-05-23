@@ -1,5 +1,5 @@
 # <b> SYRIATEL CUSTOMER CHURN ANALYSIS </b>
-![Header Image](headerimg.jpg)
+![Header Image](images/headerimg.jpg)
 
 #### Author : Stella Kitur
 #### Blog: [Stella's Blog](https://stellacherotich.medium.com/)
@@ -10,7 +10,7 @@ The objective of this project was to develop a binary classification model to pr
 
 The Data Science Process that is adhered to in this analysis is the CRISP-DM Process that is illustrated in the image below. 
 
-![crisp-dm](CRISP-DM-data-mining-framework.png)
+![crisp-dm](images/CRISP-DM-data-mining-framework.png)
 
 ---
 ## <b> Business Understanding </b>
@@ -67,7 +67,7 @@ The columns included information that is associated with features of the custome
         total expenditure
 
 Below is an illustration of the distribution of features in the dataset.
-![Distribution of Features](distr_feat.png)
+![Distribution of Features](images/distr_feat.png)
 
 ---
 ## <b> Data Preparation </b>
@@ -99,7 +99,7 @@ In the next section recommendations will be given based on this.
 
 
 
-![optimal features](optim_feat.png)
+![optimal features](images/optim_feat.png)
 
 
 ---

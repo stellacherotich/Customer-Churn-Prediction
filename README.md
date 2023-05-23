@@ -2,21 +2,22 @@
 
 #### Author : Stella Kitur
 --- 
-### <b> Project Overview </b>
-In this project I have utilised machine learning algorithms in order to identify any trends that can help in predicting whether a customer that is using SyriaTel will stop (churn) using the services. This is to help SyriaTel in their decision making process as well as in developing methods that might help to reduce the churn rate further.
-
+# <b> Project Overview </b>
+The objective of this project was to develop a binary classification model to predict whether a customer of SyriaTel, a telecommunications company, is likely to stop doing business in the near future. The primary goal was to identify predictable patterns in customer behavior in order to help the company reduce financial losses associated with customer churn.
+<b> Stakeholder </b>: SyriaTel 
 ## <b> Business Understanding </b>
-### <b> Business Problem </b>
-- Who is SyriaTel?
-- Customer retention rate is key in the telecommunication domain 
-- Important to know what features are leading to churn rate increase 
-- What are the potential factors for churn?
 
-#### <b>Objectives</b>
-As the data scientist assigned to this project, what are your objectives?
-1. Identify if there are certain features that can predict whether a customer will churn or not
-2. Predict as accurately as possible using a model, whether a customer will churn
+Customer churn has emerged as a critical concern for companies like SyriaTel in the fiercely competitive telecommunications industry. With customers having numerous options and increasing expectations, retaining existing customers has become paramount. 
+Churn not only leads to immediate revenue loss but also exerts significant pressure on customer acquisition costs. Understanding the factors that contribute to churn and being able to predict it with accuracy is crucial for telecom businesses to develop effective retention strategies. By analyzing historical customer data, telecom companies can gain valuable insights into customer behavior, preferences, and interactions, enabling them to identify potential churners and tailor retention efforts accordingly and proactively.
+This proactive approach minimizes revenue loss and enhances customer satisfaction, loyalty, and overall business performance.
+### <b> Problem Statement </b>
+SyriaTel would like to maintain/increase the customer retention rate as 
 
+### <b> Objectives </b>
+The objective of this analysis is to:
+1. Develop a highly accurate binary classification model that predicts customer churn for SyriaTel.
+2. Identify predictable patterns and insights in customer behavior to proactively identify customers at a high risk of churning.
+3. Enable SyriaTel to optimize retention strategies, allocate resources effectively, and minimize financial losses associated with customer churn.
 
 
 #### <b> Metrics of Success </b>
@@ -24,5 +25,32 @@ In this model, the metrics of success are outlined as follows :
 
 
 ## <b> Data Understanding </b>
-In conducting this analysis, the CRISP-DM data science process was used.
-There were : Outline important notes based on the dataset... etc. etc.
+The SyriaTel Dataset was retrieved from Kaggle and can be found here. 
+The original dataset contains 3333 rows and 21 columns. The columns included information that is associated with features of the customer information such as:
+
+        state
+        account length
+        area code
+        phone number  
+        international plan
+        voice mail plan 
+        number vmail messages
+        total day minutes 
+        total day calls 
+        total day charge 
+        total eve minutes 
+        total eve calls            
+        total eve charge           
+        total night minutes
+        total night calls
+        total night charge
+        total intl minutes
+        total intl call
+        total intl charge
+        customer service calls
+        churn
+        total expenditure
+
+To understand the data further, EDA (Exploratory Data Analysis) was conducted especially looking at the target variable which was churn, and how other variables influenced it.
+
+Additionally, a correlation matrix was made in order to see what features were highly correlated.

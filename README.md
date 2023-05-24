@@ -1,8 +1,8 @@
 # <b> SYRIATEL CUSTOMER CHURN ANALYSIS </b>
 ![Header Image](images/headerimg.jpg)
 
-#### Author : Stella Kitur
-#### Blog: [Stella's Blog](https://stellacherotich.medium.com/)
+### Author : Stella Kitur
+#### [Stella's Blog](https://stellacherotich.medium.com/)
 --- 
 ## <b> Project Overview </b>
 The objective of this project was to develop a binary classification model to predict whether a customer of SyriaTel, a telecommunications company, is likely to stop doing business in the near future. The primary goal was to identify predictable patterns in customer behavior in order to help the company reduce financial losses associated with customer churn.

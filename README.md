@@ -18,6 +18,7 @@ The Data Science Process that is adhered to in this analysis is the CRISP-DM Pro
 Customer churn has emerged as a critical concern for companies like SyriaTel in the fiercely competitive telecommunications industry. With customers having numerous options and increasing expectations, retaining existing customers has become paramount. 
 Churn not only leads to immediate revenue loss but also exerts significant pressure on customer acquisition costs. Understanding the factors that contribute to churn and being able to predict it with accuracy is crucial for telecom businesses to develop effective retention strategies. By analyzing historical customer data, telecom companies can gain valuable insights into customer behavior, preferences, and interactions, enabling them to identify potential churners and tailor retention efforts accordingly and proactively.
 This proactive approach minimizes revenue loss and enhances customer satisfaction, loyalty, and overall business performance.
+
 ### <b> Problem Statement </b>
 SyriaTel would like to maintain/increase the customer retention rate as well as seeking to address the challenge of customer churn by developing an accurate binary classification model that predicts the likelihood of customers discontinuing their services.
 
@@ -90,16 +91,17 @@ In this stage, statistical and machine learning models are developed using the p
 
 ## <b> Model Evaluation </b>
 
-In evaluating the model, the Decision Tree Model was the best performing model, as it had a Recall Score of a percentage value of 0.8649. 
-- The optimal parameters in this model are: {'clf__criterion': 'entropy', 'clf__max_depth': 24, 'clf__max_features': 15, 'clf__min_samples_leaf': 2, 'clf__min_samples_split': 2}
+In evaluating the model, the Random Forest Model was the best performing model, as it achieves a recall score of 74.77%. 
+optimal parameters are determined to be {'rf__criterion': 'entropy', 'rf__max_depth': 18, 'rf__min_samples_leaf': 5, 'rf__min_samples_split': 3, 'rf__n_estimators': 400}.
+
+These parameters are tuned to enhance the model's performance and achieve better results.
 
 Additionally, the key features that were shown to influence whether a customer would churn or not can be seen in the bar plot displayed below. We can note that the total expenditure is a key predicting variable.
 
 In the next section recommendations will be given based on this.
 
 
-
-![optimal features](images/optim_feat.png)
+![optimal features](images/rf_feat.png)
 
 
 ---

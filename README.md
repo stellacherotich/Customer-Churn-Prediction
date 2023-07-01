@@ -2,7 +2,7 @@
 ![Header Image](images/headerimg.jpg)
 
 ### Author : Stella Kitur
-#### [Stella's Blog](https://stellacherotich.medium.com/)
+#### [Blog Post][(https://stellacherotich.medium.com/)](https://stellacherotich.medium.com/b43e5b7ed136)
 --- 
 ## <b> Project Overview </b>
 The objective of this project was to develop a binary classification model to predict whether a customer of SyriaTel, a telecommunications company, is likely to stop doing business in the near future. The primary goal was to identify predictable patterns in customer behavior in order to help the company reduce financial losses associated with customer churn.
